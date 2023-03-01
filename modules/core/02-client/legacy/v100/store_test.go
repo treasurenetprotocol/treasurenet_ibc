@@ -6,12 +6,12 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/cosmos/ibc-go/v3/modules/core/02-client/legacy/v100"
-	"github.com/cosmos/ibc-go/v3/modules/core/02-client/types"
-	host "github.com/cosmos/ibc-go/v3/modules/core/24-host"
-	"github.com/cosmos/ibc-go/v3/modules/core/exported"
-	ibctmtypes "github.com/cosmos/ibc-go/v3/modules/light-clients/07-tendermint/types"
-	ibctesting "github.com/cosmos/ibc-go/v3/testing"
+	"github.com/treasurenetprotocol/treasurenet_ibc/modules/core/02-client/legacy/v100"
+	"github.com/treasurenetprotocol/treasurenet_ibc/modules/core/02-client/types"
+	host "github.com/treasurenetprotocol/treasurenet_ibc/modules/core/24-host"
+	"github.com/treasurenetprotocol/treasurenet_ibc/modules/core/exported"
+	ibctmtypes "github.com/treasurenetprotocol/treasurenet_ibc/modules/light-clients/07-tendermint/types"
+	ibctesting "github.com/treasurenetprotocol/treasurenet_ibc/testing"
 )
 
 type LegacyTestSuite struct {

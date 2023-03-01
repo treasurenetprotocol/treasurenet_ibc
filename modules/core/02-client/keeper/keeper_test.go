@@ -15,15 +15,15 @@ import (
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	"github.com/cosmos/ibc-go/v3/modules/core/02-client/keeper"
-	"github.com/cosmos/ibc-go/v3/modules/core/02-client/types"
-	commitmenttypes "github.com/cosmos/ibc-go/v3/modules/core/23-commitment/types"
-	"github.com/cosmos/ibc-go/v3/modules/core/exported"
-	ibctmtypes "github.com/cosmos/ibc-go/v3/modules/light-clients/07-tendermint/types"
-	localhosttypes "github.com/cosmos/ibc-go/v3/modules/light-clients/09-localhost/types"
-	ibctesting "github.com/cosmos/ibc-go/v3/testing"
-	ibctestingmock "github.com/cosmos/ibc-go/v3/testing/mock"
-	"github.com/cosmos/ibc-go/v3/testing/simapp"
+	"github.com/treasurenetprotocol/treasurenet_ibc/modules/core/02-client/keeper"
+	"github.com/treasurenetprotocol/treasurenet_ibc/modules/core/02-client/types"
+	commitmenttypes "github.com/treasurenetprotocol/treasurenet_ibc/modules/core/23-commitment/types"
+	"github.com/treasurenetprotocol/treasurenet_ibc/modules/core/exported"
+	ibctmtypes "github.com/treasurenetprotocol/treasurenet_ibc/modules/light-clients/07-tendermint/types"
+	localhosttypes "github.com/treasurenetprotocol/treasurenet_ibc/modules/light-clients/09-localhost/types"
+	ibctesting "github.com/treasurenetprotocol/treasurenet_ibc/testing"
+	ibctestingmock "github.com/treasurenetprotocol/treasurenet_ibc/testing/mock"
+	"github.com/treasurenetprotocol/treasurenet_ibc/testing/simapp"
 )
 
 const (

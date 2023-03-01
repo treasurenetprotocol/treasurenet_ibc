@@ -10,12 +10,12 @@ import (
 	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 
-	"github.com/cosmos/ibc-go/v3/modules/apps/27-interchain-accounts/host/types"
-	icatypes "github.com/cosmos/ibc-go/v3/modules/apps/27-interchain-accounts/types"
-	transfertypes "github.com/cosmos/ibc-go/v3/modules/apps/transfer/types"
-	clienttypes "github.com/cosmos/ibc-go/v3/modules/core/02-client/types"
-	channeltypes "github.com/cosmos/ibc-go/v3/modules/core/04-channel/types"
-	ibctesting "github.com/cosmos/ibc-go/v3/testing"
+	"github.com/treasurenetprotocol/treasurenet_ibc/modules/apps/27-interchain-accounts/host/types"
+	icatypes "github.com/treasurenetprotocol/treasurenet_ibc/modules/apps/27-interchain-accounts/types"
+	transfertypes "github.com/treasurenetprotocol/treasurenet_ibc/modules/apps/transfer/types"
+	clienttypes "github.com/treasurenetprotocol/treasurenet_ibc/modules/core/02-client/types"
+	channeltypes "github.com/treasurenetprotocol/treasurenet_ibc/modules/core/04-channel/types"
+	ibctesting "github.com/treasurenetprotocol/treasurenet_ibc/testing"
 )
 
 func (suite *KeeperTestSuite) TestOnRecvPacket() {

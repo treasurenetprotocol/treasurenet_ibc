@@ -13,12 +13,12 @@ import (
 	"github.com/tendermint/tendermint/libs/log"
 	dbm "github.com/tendermint/tm-db"
 
-	clienttypes "github.com/cosmos/ibc-go/v3/modules/core/02-client/types"
-	"github.com/cosmos/ibc-go/v3/modules/core/03-connection/types"
-	commitmenttypes "github.com/cosmos/ibc-go/v3/modules/core/23-commitment/types"
-	ibctmtypes "github.com/cosmos/ibc-go/v3/modules/light-clients/07-tendermint/types"
-	ibctesting "github.com/cosmos/ibc-go/v3/testing"
-	"github.com/cosmos/ibc-go/v3/testing/simapp"
+	clienttypes "github.com/treasurenetprotocol/treasurenet_ibc/modules/core/02-client/types"
+	"github.com/treasurenetprotocol/treasurenet_ibc/modules/core/03-connection/types"
+	commitmenttypes "github.com/treasurenetprotocol/treasurenet_ibc/modules/core/23-commitment/types"
+	ibctmtypes "github.com/treasurenetprotocol/treasurenet_ibc/modules/light-clients/07-tendermint/types"
+	ibctesting "github.com/treasurenetprotocol/treasurenet_ibc/testing"
+	"github.com/treasurenetprotocol/treasurenet_ibc/testing/simapp"
 )
 
 var (

@@ -9,14 +9,14 @@ import (
 	"github.com/cosmos/cosmos-sdk/codec"
 	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
 
-	ibcclient "github.com/cosmos/ibc-go/v3/modules/core/02-client"
-	v100 "github.com/cosmos/ibc-go/v3/modules/core/02-client/legacy/v100"
-	"github.com/cosmos/ibc-go/v3/modules/core/02-client/types"
-	host "github.com/cosmos/ibc-go/v3/modules/core/24-host"
-	"github.com/cosmos/ibc-go/v3/modules/core/exported"
-	ibctmtypes "github.com/cosmos/ibc-go/v3/modules/light-clients/07-tendermint/types"
-	ibctesting "github.com/cosmos/ibc-go/v3/testing"
-	"github.com/cosmos/ibc-go/v3/testing/simapp"
+	ibcclient "github.com/treasurenetprotocol/treasurenet_ibc/modules/core/02-client"
+	v100 "github.com/treasurenetprotocol/treasurenet_ibc/modules/core/02-client/legacy/v100"
+	"github.com/treasurenetprotocol/treasurenet_ibc/modules/core/02-client/types"
+	host "github.com/treasurenetprotocol/treasurenet_ibc/modules/core/24-host"
+	"github.com/treasurenetprotocol/treasurenet_ibc/modules/core/exported"
+	ibctmtypes "github.com/treasurenetprotocol/treasurenet_ibc/modules/light-clients/07-tendermint/types"
+	ibctesting "github.com/treasurenetprotocol/treasurenet_ibc/testing"
+	"github.com/treasurenetprotocol/treasurenet_ibc/testing/simapp"
 )
 
 func (suite *LegacyTestSuite) TestMigrateGenesisSolomachine() {

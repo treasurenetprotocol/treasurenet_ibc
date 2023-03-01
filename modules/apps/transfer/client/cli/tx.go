@@ -13,9 +13,9 @@ import (
 	"github.com/cosmos/cosmos-sdk/version"
 	"github.com/spf13/cobra"
 
-	"github.com/cosmos/ibc-go/v3/modules/apps/transfer/types"
-	clienttypes "github.com/cosmos/ibc-go/v3/modules/core/02-client/types"
-	channelutils "github.com/cosmos/ibc-go/v3/modules/core/04-channel/client/utils"
+	"github.com/treasurenetprotocol/treasurenet_ibc/modules/apps/transfer/types"
+	clienttypes "github.com/treasurenetprotocol/treasurenet_ibc/modules/core/02-client/types"
+	channelutils "github.com/treasurenetprotocol/treasurenet_ibc/modules/core/04-channel/client/utils"
 )
 
 const (

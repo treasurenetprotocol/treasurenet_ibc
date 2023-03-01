@@ -6,10 +6,10 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/query"
 
-	clienttypes "github.com/cosmos/ibc-go/v3/modules/core/02-client/types"
-	"github.com/cosmos/ibc-go/v3/modules/core/03-connection/types"
-	"github.com/cosmos/ibc-go/v3/modules/core/exported"
-	ibctesting "github.com/cosmos/ibc-go/v3/testing"
+	clienttypes "github.com/treasurenetprotocol/treasurenet_ibc/modules/core/02-client/types"
+	"github.com/treasurenetprotocol/treasurenet_ibc/modules/core/03-connection/types"
+	"github.com/treasurenetprotocol/treasurenet_ibc/modules/core/exported"
+	ibctesting "github.com/treasurenetprotocol/treasurenet_ibc/testing"
 )
 
 func (suite *KeeperTestSuite) TestQueryConnection() {

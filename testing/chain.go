@@ -26,14 +26,14 @@ import (
 	tmtypes "github.com/tendermint/tendermint/types"
 	tmversion "github.com/tendermint/tendermint/version"
 
-	clienttypes "github.com/cosmos/ibc-go/v3/modules/core/02-client/types"
-	commitmenttypes "github.com/cosmos/ibc-go/v3/modules/core/23-commitment/types"
-	host "github.com/cosmos/ibc-go/v3/modules/core/24-host"
-	"github.com/cosmos/ibc-go/v3/modules/core/exported"
-	"github.com/cosmos/ibc-go/v3/modules/core/types"
-	ibctmtypes "github.com/cosmos/ibc-go/v3/modules/light-clients/07-tendermint/types"
-	"github.com/cosmos/ibc-go/v3/testing/mock"
-	"github.com/cosmos/ibc-go/v3/testing/simapp"
+	clienttypes "github.com/treasurenetprotocol/treasurenet_ibc/modules/core/02-client/types"
+	commitmenttypes "github.com/treasurenetprotocol/treasurenet_ibc/modules/core/23-commitment/types"
+	host "github.com/treasurenetprotocol/treasurenet_ibc/modules/core/24-host"
+	"github.com/treasurenetprotocol/treasurenet_ibc/modules/core/exported"
+	"github.com/treasurenetprotocol/treasurenet_ibc/modules/core/types"
+	ibctmtypes "github.com/treasurenetprotocol/treasurenet_ibc/modules/light-clients/07-tendermint/types"
+	"github.com/treasurenetprotocol/treasurenet_ibc/testing/mock"
+	"github.com/treasurenetprotocol/treasurenet_ibc/testing/simapp"
 )
 
 var MaxAccounts = 10

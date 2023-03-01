@@ -11,8 +11,8 @@ import (
 	tmbytes "github.com/tendermint/tendermint/libs/bytes"
 	"github.com/tendermint/tendermint/libs/log"
 
-	"github.com/cosmos/ibc-go/v3/modules/apps/transfer/types"
-	host "github.com/cosmos/ibc-go/v3/modules/core/24-host"
+	"github.com/treasurenetprotocol/treasurenet_ibc/modules/apps/transfer/types"
+	host "github.com/treasurenetprotocol/treasurenet_ibc/modules/core/24-host"
 )
 
 // Keeper defines the IBC fungible transfer keeper

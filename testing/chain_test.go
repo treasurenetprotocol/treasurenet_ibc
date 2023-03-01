@@ -6,8 +6,8 @@ import (
 	"github.com/stretchr/testify/require"
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	ibctesting "github.com/cosmos/ibc-go/v3/testing"
-	"github.com/cosmos/ibc-go/v3/testing/mock"
+	ibctesting "github.com/treasurenetprotocol/treasurenet_ibc/testing"
+	"github.com/treasurenetprotocol/treasurenet_ibc/testing/mock"
 )
 
 func TestCreateSortedSignerArray(t *testing.T) {

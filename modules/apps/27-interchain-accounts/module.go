@@ -15,16 +15,16 @@ import (
 	"github.com/spf13/cobra"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/cosmos/ibc-go/v3/modules/apps/27-interchain-accounts/client/cli"
-	"github.com/cosmos/ibc-go/v3/modules/apps/27-interchain-accounts/controller"
-	controllerkeeper "github.com/cosmos/ibc-go/v3/modules/apps/27-interchain-accounts/controller/keeper"
-	controllertypes "github.com/cosmos/ibc-go/v3/modules/apps/27-interchain-accounts/controller/types"
-	"github.com/cosmos/ibc-go/v3/modules/apps/27-interchain-accounts/host"
-	hostkeeper "github.com/cosmos/ibc-go/v3/modules/apps/27-interchain-accounts/host/keeper"
-	hosttypes "github.com/cosmos/ibc-go/v3/modules/apps/27-interchain-accounts/host/types"
-	"github.com/cosmos/ibc-go/v3/modules/apps/27-interchain-accounts/types"
-	porttypes "github.com/cosmos/ibc-go/v3/modules/core/05-port/types"
-	ibchost "github.com/cosmos/ibc-go/v3/modules/core/24-host"
+	"github.com/treasurenetprotocol/treasurenet_ibc/modules/apps/27-interchain-accounts/client/cli"
+	"github.com/treasurenetprotocol/treasurenet_ibc/modules/apps/27-interchain-accounts/controller"
+	controllerkeeper "github.com/treasurenetprotocol/treasurenet_ibc/modules/apps/27-interchain-accounts/controller/keeper"
+	controllertypes "github.com/treasurenetprotocol/treasurenet_ibc/modules/apps/27-interchain-accounts/controller/types"
+	"github.com/treasurenetprotocol/treasurenet_ibc/modules/apps/27-interchain-accounts/host"
+	hostkeeper "github.com/treasurenetprotocol/treasurenet_ibc/modules/apps/27-interchain-accounts/host/keeper"
+	hosttypes "github.com/treasurenetprotocol/treasurenet_ibc/modules/apps/27-interchain-accounts/host/types"
+	"github.com/treasurenetprotocol/treasurenet_ibc/modules/apps/27-interchain-accounts/types"
+	porttypes "github.com/treasurenetprotocol/treasurenet_ibc/modules/core/05-port/types"
+	ibchost "github.com/treasurenetprotocol/treasurenet_ibc/modules/core/24-host"
 )
 
 var (

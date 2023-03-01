@@ -10,8 +10,8 @@ import (
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/cosmos/ibc-go/v3/modules/apps/27-interchain-accounts/types"
-	ibctesting "github.com/cosmos/ibc-go/v3/testing"
+	"github.com/treasurenetprotocol/treasurenet_ibc/modules/apps/27-interchain-accounts/types"
+	ibctesting "github.com/treasurenetprotocol/treasurenet_ibc/testing"
 )
 
 var (

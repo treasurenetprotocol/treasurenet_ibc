@@ -7,9 +7,9 @@ import (
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	clienttypes "github.com/cosmos/ibc-go/v3/modules/core/02-client/types"
-	host "github.com/cosmos/ibc-go/v3/modules/core/24-host"
-	"github.com/cosmos/ibc-go/v3/modules/core/exported"
+	clienttypes "github.com/treasurenetprotocol/treasurenet_ibc/modules/core/02-client/types"
+	host "github.com/treasurenetprotocol/treasurenet_ibc/modules/core/24-host"
+	"github.com/treasurenetprotocol/treasurenet_ibc/modules/core/exported"
 )
 
 var _ exported.Misbehaviour = &Misbehaviour{}

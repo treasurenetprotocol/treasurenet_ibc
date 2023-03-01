@@ -6,7 +6,7 @@ import (
 
 	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
 
-	"github.com/cosmos/ibc-go/v3/modules/core/exported"
+	"github.com/treasurenetprotocol/treasurenet_ibc/modules/core/exported"
 )
 
 var (

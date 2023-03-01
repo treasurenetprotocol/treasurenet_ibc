@@ -5,8 +5,8 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/cosmos/ibc-go/v3/modules/core/02-client/types"
-	"github.com/cosmos/ibc-go/v3/modules/core/exported"
+	"github.com/treasurenetprotocol/treasurenet_ibc/modules/core/02-client/types"
+	"github.com/treasurenetprotocol/treasurenet_ibc/modules/core/exported"
 )
 
 // EmitCreateClientEvent emits a create client event
